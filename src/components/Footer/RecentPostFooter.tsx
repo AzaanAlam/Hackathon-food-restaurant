@@ -31,7 +31,7 @@ export default function RecentPostsSection() {
               key={index}
               className="flex items-center bg-[#0D0D0D] p-3 md:p-4"
             >
-              <img
+              <Image
                 src={post.image}
                 alt=""
                 className="w-14 h-14 md:w-16 md:h-16 object-cover mr-4"
